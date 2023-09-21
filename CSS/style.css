@@ -57,3 +57,53 @@ hr {
 }
 
 /* info */
+
+.frontend {
+    display: flex;
+    margin-top: 50px;
+}
+.photo {
+    max-height: 348px;
+    border: 2px solid black;
+}
+.info {
+    padding: 0 25px 0 25px;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: teal;
+    border: 1px solid grey;
+}
+p {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-size: 17.5px;
+}
+.html {
+    display: flex;
+    margin-top: 50px;
+}
+.css {
+    display: flex;
+    margin-top: 50px;
+}
+.js {
+    display: flex;
+    margin-top: 50px;
+}
+.under__info {
+    margin-top: 50px;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+.footer {
+    font-size: 20px;
+}
+.f__logo {
+    font-size: 20px;
+}
