@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
 }
 hr {
     color: slategray;
@@ -21,6 +22,7 @@ hr {
     margin: 0;
 }
 .logo li a {
+    font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     color: grey;
     font-size: 30px;
@@ -44,6 +46,7 @@ hr {
     margin: 0;
 }
 .nav li a {
+    font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     color: slategrey;
     font-size: 20px;
@@ -57,6 +60,9 @@ hr {
 }
 
 /* about */
+.about {
+    margin-top: 50px;
+}
 h2 {
     display: flex;
     justify-content: center;
@@ -77,12 +83,14 @@ img {
     margin: 0 290px 0 290px;
     border-bottom: 2px solid grey;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: grey;
 }
 
 
 /* footer */ 
 .under__info {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 footer {
     display: flex;

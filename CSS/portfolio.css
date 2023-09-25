@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
 }
 hr {
     color: slategray;
@@ -21,6 +22,7 @@ hr {
     margin: 0;
 }
 .logo li a {
+    font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     color: grey;
     font-size: 30px;
@@ -44,6 +46,7 @@ hr {
     margin: 0;
 }
 .nav li a {
+    font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     color: slategrey;
     font-size: 20px;
@@ -57,8 +60,10 @@ hr {
 }
 
 /* portfolio */
+.portfolio {
+    margin-top: 100px;
+}
 h2 {
-    padding-top: 20px;
     display: flex;
     justify-content: center;
     color: grey;
@@ -66,7 +71,7 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
 }
-a {
+.portfolio a {
     display: flex;
     justify-content: center;
     text-decoration: none;
@@ -85,7 +90,7 @@ a {
 
 /* footer */ 
 .under__info {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 footer {
     display: flex;
