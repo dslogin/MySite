@@ -16,47 +16,45 @@ hr {
     margin-top: 30px;
 }
 .logo {
+    margin: 0;
+    padding: 0;
     display: flex;
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 .logo li a {
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
     color: grey;
     font-size: 30px;
-    text-decoration: none;
     padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 .logo li a:hover {
     color: slategray;
     border-radius: 5px;
 }
 .menu {
-    margin: 25px 0;
     display: flex;
-    justify-content: space-between;
+    margin: 25px 0;
     align-items: center;
+    justify-content: space-between;
 }
 .nav {
+    margin: 0;
+    padding: 0;
     display: flex;
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 .nav li a {
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    color: slategrey;
     font-size: 20px;
-    text-decoration: none;
     padding: 10px 20px;
+    color: slategrey;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 .nav li a:hover {
-    background-color: teal;
     color: black;
     border-radius: 5px;
+    background-color: teal;
 }
 
 /* about */
@@ -64,10 +62,10 @@ hr {
     margin-top: 50px;
 }
 h2 {
-    display: flex;
-    justify-content: center;
-    padding: 20px 0 20px 0;
     color: teal;
+    display: flex;
+    padding: 20px 0 20px 0;
+    justify-content: center;
 }
 .photo {
     display: flex;
@@ -77,16 +75,14 @@ img {
     border: 1px solid black;
 }
 .example {
-    padding: 30px 0 15px 0;
+    color: grey;
     display: flex;
+    font-size: 20px;
+    padding: 30px 0 15px 0;
     justify-content: center;
     margin: 0 290px 0 290px;
     border-bottom: 2px solid grey;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: grey;
 }
-
 
 /* footer */ 
 .under__info {

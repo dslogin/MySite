@@ -16,70 +16,66 @@ hr {
     margin-top: 30px;
 }
 .logo {
+    margin: 0;
+    padding: 0;
     display: flex;
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 .logo li a {
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
     color: grey;
     font-size: 30px;
-    text-decoration: none;
     padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 .logo li a:hover {
     color: slategray;
     border-radius: 5px;
 }
 .menu {
-    margin: 25px 0;
     display: flex;
-    justify-content: space-between;
+    margin: 25px 0;
     align-items: center;
+    justify-content: space-between;
 }
 .nav {
+    margin: 0;
+    padding: 0;
     display: flex;
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 .nav li a {
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    color: slategrey;
     font-size: 20px;
-    text-decoration: none;
     padding: 10px 20px;
+    color: slategrey;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 .nav li a:hover {
-    background-color: teal;
     color: black;
     border-radius: 5px;
+    background-color: teal;
 }
 
 /* contacts */
 .contacts {
-    padding: 100px 100px 0 100px;
     max-width: 800px;
+    padding: 100px 100px 0 100px;
 }
 h2 {
     color: teal;
     font-size: 25px;
     text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
 }
 p {
     color: grey;
     font-size: 20px;
 }
 .contacts a {
-    text-decoration: none;
-    color: teal;
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
     margin-top: 0;
+    color: teal;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 .email {
     color: teal;
