@@ -78,10 +78,10 @@ p {
 }
 
 /* footer */ 
-.under__info {
+.line {
     margin-top: 100px;
 }
-footer {
+.info {
     display: flex;
     justify-content: space-around;
 }
