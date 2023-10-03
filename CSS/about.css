@@ -12,9 +12,11 @@ hr {
 }
 
 /* header */
-.hr__head {
-    margin-top: 30px;
-}
+/*  .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}   */
 .logo {
     margin: 0;
     padding: 0;
