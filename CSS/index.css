@@ -5,23 +5,21 @@
     background-color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
 }
-html {
+html, body {
     height: 100%;
-}
-body {
-    min-height: 100%;
-    position: relative;
 }
 hr {
     color: slategray;
 }
-.container {
+.wrapper {
     width: 1440px;
-    display: block;
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
 }
 
 /* menu bar */
-.header {
+header {
     top: 0;
     width: 100%;
     position: fixed;
@@ -66,45 +64,30 @@ hr {
 }
 
 /* bio */
-.body {
-    width: 800px;
+main {
+    flex: 1 1 auto;
     margin-top: 150px;
-    padding-bottom: 30px;
-    padding: 0 150px 0 150px;
+    padding: 0 360px 0 120px;
 }
-.me {
+h2, h3 {
     color: grey;
     font-size: 25px;
 }
-.name {
+.name, .dev {
     color: teal;
 }
-.dev {
-    color: teal;
-}
-p {
+main p {
     margin-top: 15px;
     font-size: 20px;
 }
 
-/* footer */ 
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 30px;
-}
-
+/* footer */
 .info {
     display: flex;
     padding: 30px 0;
     justify-content: space-around;
 }
-.footer {
-    color: grey;
-    font-size: 20px;
-}
-.f__logo {
+.footer_info, .footer_logo {
     color: grey;
     font-size: 20px;
 }

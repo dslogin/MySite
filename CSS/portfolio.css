@@ -5,23 +5,21 @@
     background-color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
 }
-html {
+html, body {
     height: 100%;
-}
-body {
-    min-height: 100%;
-    position: relative;
 }
 hr {
     color: slategray;
 }
-.container {
+.wrapper {
     width: 1440px;
-    display: block;
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
 }
 
 /* menu bar */
-.header {
+header {
     top: 0;
     width: 100%;
     position: fixed;
@@ -66,50 +64,45 @@ hr {
 }
 
 /* portfolio */
-.body {
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
     margin-top: 100px;
+    position: relative;
 }
-h2 {
+main h2 {
     color: grey;
     display: flex;
     margin: 0 auto;
+    padding-top: 150px;
     justify-content: center;
     text-transform: uppercase;
 }
-.body a {
+main a {
     display: flex;
     color: teal;
     margin-top: 0;
     font-size: 25px;
+    padding-top: 5px;
     text-decoration: none;
     justify-content: center;
     text-transform: uppercase;
 }
 .img {
     display: flex;
-    padding: 30px 0 20px 0;
+    padding-top: 30px;
     justify-content: center;
 }
 
 
-/* footer */ 
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 30px;
-}
-
+/* footer */
 .info {
     display: flex;
     padding: 30px 0;
     justify-content: space-around;
 }
-.footer {
-    color: grey;
-    font-size: 20px;
-}
-.f__logo {
+.footer_info, .footer_logo {
     color: grey;
     font-size: 20px;
 }

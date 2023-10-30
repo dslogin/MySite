@@ -5,19 +5,62 @@
     background-color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
 }
-html {
+html, body {
     height: 100%;
-}
-body {
-    min-height: 100%;
-    position: relative;
 }
 hr {
     color: slategray;
 }
-.container {
+.wrapper {
     width: 1440px;
-    display: block;
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+}
+
+/* menu bar */
+header {
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+.menu {
+    display: flex;
+    margin: 25px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    list-style: none;
+}
+.logo li a {
+    color: grey;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 50px;
+}
+.logo li a:hover {
+    color: slategray;
+    border-radius: 5px;
+}
+.nav {
+    display: flex;
+    list-style: none;
+    padding-right: 30px;
+}
+.nav li a {
+    font-size: 20px;
+    padding: 10px 20px;
+    color: slategrey;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav li a:hover {
+    color: black;
+    border-radius: 5px;
+    background-color: teal;
 }
 
 /* menu bar */
@@ -66,9 +109,9 @@ hr {
 }
 
 /* about */
-.body {
+main {
+    flex: 1 1 auto;
     margin-top: 100px;
-    padding-bottom: 30px;
 }
 h2 {
     color: teal;
@@ -81,36 +124,29 @@ h2 {
     justify-content: center;
 }
 img {
+    width: 720px;
     border: 1px solid black;
+}
+.br {
+    border-bottom: 2px grey solid;
 }
 .example {
     color: grey;
     display: flex;
     font-size: 20px;
+    text-align: justify;
+    margin: 0 360px 0 360px;
     padding: 30px 0 15px 0;
     justify-content: center;
-    margin: 0 290px 0 290px;
-    border-bottom: 2px solid grey;
 }
 
-/* footer */ 
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 30px;
-}
-
+/* footer */
 .info {
     display: flex;
     padding: 30px 0;
     justify-content: space-around;
 }
-.footer {
-    color: grey;
-    font-size: 20px;
-}
-.f__logo {
+.footer_info, .footer_logo {
     color: grey;
     font-size: 20px;
 }
